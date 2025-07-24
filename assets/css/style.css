@@ -107,6 +107,10 @@ i {
 #contact .social-links i:hover {
   color: var(--secondary-color);
 }
+
+#contact .table-dark * {
+  background-color: transparent;
+}
 /*media queries*/
 
 /* medium devices 768 px and up */
