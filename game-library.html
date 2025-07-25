@@ -37,7 +37,11 @@
   <!--classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
   <body class="d-flex flex-column min-vh-100">
     <!--Navigation Bar-->
-    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg fixed-top"
+      data-bs-theme="dark"
+    >
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img
@@ -63,7 +67,7 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="booking.html">Services</a>
+              <a class="nav-link" href="index.html#services">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html#events">Events</a>
@@ -345,14 +349,15 @@
       <section id="booking-form" class="container section">
         <div class="section-header text-center">
           <h1 class="display-5 my-4">Reserve a game</h1>
-          
         </div>
         <div class="row justify-content-center">
           <div class="col-12 col-md-8">
-            <p>Reserve a board game for your next visit to Boardwalk Games. Pick your
-              challenge, and let the adventure begin! Fill out your details and
-              preferred game below, and we'll have it set aside for you when you
-              arrive.</p>
+            <p>
+              Reserve a board game for your next visit to Boardwalk Games. Pick
+              your challenge, and let the adventure begin! Fill out your details
+              and preferred game below, and we'll have it set aside for you when
+              you arrive.
+            </p>
             <form action="success.html" method="get">
               <div class="row">
                 <div class="col-12 col-lg-4 mb-3">
@@ -523,5 +528,6 @@
       src="https://kit.fontawesome.com/7e4050e0f7.js"
       crossorigin="anonymous"
     ></script>
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
   </body>
 </html>

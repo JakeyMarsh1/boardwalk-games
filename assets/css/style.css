@@ -15,6 +15,7 @@
 
 body {
   font-family: var(--primary-font);
+  padding-top: 57.24px; /* Adjust for fixed navbar height */
 }
 
 h1,
@@ -38,8 +39,7 @@ h2 {
 }
 
 .section {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  padding-top: 4rem; /* Space for fixed navbar */
 }
 
 /* Buttons */
