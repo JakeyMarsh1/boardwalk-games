@@ -67,6 +67,12 @@ h2 {
   color: white;
 }
 
+.div-background-filled {
+  padding: 7px 25px;
+  background-color: var(--highlight-color);
+  color: white;
+}
+
 /* Navigation Bar */
 #navbar {
   background-color: var(--primary-color);
